@@ -48,3 +48,13 @@ The simulation demonstrates the model correctly identifying a submitted fish ima
 ![Screenshot 2024-06-21 012953](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/a85ae81d-39d3-4c6b-b9da-93c8f4382469)
 
 The model shows strong generalization capabilities and accurately classifies most fish species.
+
+### Requirements
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Seaborn
+- OpenCV
+- TensorFlow.js
