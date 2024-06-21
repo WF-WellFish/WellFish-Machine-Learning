@@ -38,3 +38,8 @@ The loss curve graph illustrates our CNN model's performance. Training loss (blu
 #### Evaluate the Model on New Testing Data
 On new test data, the model achieved a test loss of 0.5224 and a test accuracy of 90.57%, indicating good performance and successful generalization to unseen data.
 ![Screenshot 2024-06-20 135241](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/b5fc5922-c9d1-46d1-88a8-b52f0ae59af0)
+
+#### Confusion Matrix on New Testing Data
+The confusion matrix shows that the CNN model accurately categorizes most fish species, though some misclassifications highlight areas for improvement.
+![image](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/7a0701dc-b24e-4aab-96c1-fbd78025a0d9)
+
