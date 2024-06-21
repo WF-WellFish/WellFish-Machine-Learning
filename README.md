@@ -100,3 +100,9 @@ To set up the environment and run the project in Google Colab, follow these step
     !tensorflowjs_converter --input_format keras '/content/drive/MyDrive/classification_of_fish_species.h5' '/content/drive/MyDrive/tfjs_model'
     ```
 
+## Final Note
+Congratulations! The machine learning model for fish species classification is now ready for use.
+
+
+---
+**Copyright © WellFish 2024**
