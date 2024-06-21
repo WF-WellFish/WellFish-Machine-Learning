@@ -71,4 +71,5 @@ To set up the environment and run the project in Google Colab, follow these step
 2. **Install Dependencies**:
     ```python
     !pip install tensorflowjs
+    ```
 
