@@ -1,6 +1,9 @@
 # Well Fish Machine Learning 
 ![WhatsApp Image 2024-06-17 at 23 44 55_78286244](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/68eeefbd-c4e1-48ba-9e2e-401c729e4cb4)
 
+## Main Features
+1. **Classification of Fish Species**: The application can accurately identify different species of fish from images.
+2. **Detection of Fish Diseases**: The application can detect various diseases in fish based on image analysis.
 
 ## Classification of Fish Species using CNN Model
 This project focuses on classifying different species of fish using a Convolutional Neural Network (CNN) model. The model is trained and evaluated on a dataset of fish images and demonstrates high accuracy and generalization capabilities.
