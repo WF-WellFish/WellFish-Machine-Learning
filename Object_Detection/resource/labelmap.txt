@@ -1,0 +1,6 @@
+EUS
+Eye_disease
+Fin_lesions
+Rotten_gills
+Head_Worms
+Body_Worms

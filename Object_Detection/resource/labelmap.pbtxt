@@ -1,0 +1,30 @@
+item {
+  id: 1
+  name: 'EUS'
+}
+
+item {
+  id: 2
+  name: 'Eye_disease'
+}
+
+item {
+  id: 3
+  name: 'Fin_lesions'
+}
+
+item {
+  id: 4
+  name: 'Rotten_gills'
+}
+
+item {
+  id: 5
+  name: 'Head_Worms'
+}
+
+item {
+  id: 6
+  name: 'Body_Worms'
+}
+
