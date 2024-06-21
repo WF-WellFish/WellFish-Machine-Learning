@@ -116,10 +116,14 @@ This project involves several key steps, namely data collection, dataset labelin
 
 ### Dataset
 The dataset used in this project includes images of fish infected with various types of diseases. This data is divided into training, testing, and validation datasets. Each image in the dataset has labeled to determine the type of disease present in the fish.
-Link Dataset: [https://drive.google.com/drive/folders/1w5R5eo_bn3_fdId_UJ0LGVIK3PRM2MP6?usp=sharing](https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing)
+Link Dataset: [https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing]
 
 ### Model Architecture
 The model used in this project is SSD MobileNet V2. SSD (Single Shot Multibox Detector) is an object detection algorithm that allows detection in a single stage, making it faster compared to other object detection models that require two stages. MobileNet V2 is a convolutional neural network architecture optimized for devices with low computational power such as smartphones and IoT devices.
+
+### Model Training
+The model was trained through a series of steps totaling 36.2k steps. Below are the results of the training process:
+Link: [https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing]
 
 ### Results and Graph Visualization
 #### Loss/Classification Loss
@@ -138,13 +142,13 @@ The graph shows a stable decrease from around 0.34 to 0.146 at 36.2k steps. Regu
 The graph shows a stable decrease from around 0.80 to 0.238 at 36.2k steps. The total loss is a combination of all the measured loss components, and the decrease in total loss indicates an improvement in the model's performance.
 ![Screenshot 2024-06-20 210603](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/f5b064bc-22f8-4cc2-b245-32a18fdaaf48)
 
-#### Machine Learning Model Simulation for Detection of Fish Diseases
+#### Machine Learning Model Simulation for Fish Type Classification
 The simulation demonstrates the model correctly identifying a submitted fish disease as EUS, Fin_lesions, Eye_disease, Rotten_gills showcasing its ability to accurately identify fish disease from photographs.
 ![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/5416fc72-eb7c-4dc9-83b8-46a80072f68d)
 ![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/b6491afb-1c2b-460c-929a-cd555a8f7021)
 ![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/7d952ca0-6ea5-47f0-8c9d-f80df7cf0b2b)
 
-The model shows strong generalization capabilities and accurately detect fish disease.
+The model shows strong generalization capabilities and accurately detect fish disease. 
 
 #### mAP Results for Fish Disease Detection Using SSD MobileNet V2 Model
 The following are the results of calculating the mean Average Precision (mAP) at various Intersection over Union (IoU) thresholds for detecting different types of fish diseases using the SSD MobileNet V2 model:
@@ -160,9 +164,18 @@ The following are the results of calculating the mean Average Precision (mAP) at
 | Body_Worms   | 49.88%                 |
 | **Overall**  | **52.35%**             |
 
+### Requirements
+- TensorFlow
+- CUDA
+- Cython
+- Protobuf
+- Keras
+- Seaborn
+- OpenCV
+- TensorFlow.js
 
 ## Final Note
-Congratulations! The machine learning model for fish species classification & Detection of Fish Diseases is now ready for use.
+Congratulations! The machine learning model for fish species classification is now ready for use.
 
 
 ---
