@@ -19,3 +19,6 @@ The CNN model is built using the following layers:
 - Flatten layer
 - Fully connected Dense layers with Leaky ReLU activation
 - Output layer with softmax activation for multi-class classification
+
+### Training and Evaluation
+The model is trained using the Adam optimizer and categorical cross-entropy loss. Early stopping is used to prevent overfitting. The training process is visualized using learning and loss curves.
