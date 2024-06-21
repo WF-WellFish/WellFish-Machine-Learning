@@ -170,9 +170,6 @@ The following are the results of calculating the mean Average Precision (mAP) at
 - Cython
 - Protobuf
 - Keras
-- Seaborn
-- OpenCV
-- TensorFlow.js
 
 ## Final Note
 Congratulations! The machine learning model for fish species classification is now ready for use.
