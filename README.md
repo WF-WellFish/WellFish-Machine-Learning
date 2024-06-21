@@ -11,3 +11,11 @@ This project utilizes a CNN model to classify images of different fish species. 
 ### Dataset
 The dataset consists of images of various fish species divided into training, validation, and test sets. The images are preprocessed and augmented to improve model generalization.
 Link Dataset: https://drive.google.com/drive/folders/1w5R5eo_bn3_fdId_UJ0LGVIK3PRM2MP6?usp=sharing
+
+### Model Architecture
+The CNN model is built using the following layers:
+- Convolutional layers with Leaky ReLU activation
+- MaxPooling layers
+- Flatten layer
+- Fully connected Dense layers with Leaky ReLU activation
+- Output layer with softmax activation for multi-class classification
