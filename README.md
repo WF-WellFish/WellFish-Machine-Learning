@@ -73,4 +73,30 @@ To set up the environment and run the project in Google Colab, follow these step
     !pip install tensorflowjs
     ```
 
+### Usage
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/WF-WellFish/WellFish-Machine-Learning/tree/main/Types_of_fish/V2
+    ```
+
+2. **Open the Notebook**:
+    - Go to [Google Colab](https://colab.research.google.com/)
+    - Upload the `.ipynb` file from the cloned repository
+
+3. **Run the Code**:
+    - Follow the steps in the notebook to run the code, which includes:
+        - Loading and preprocessing data
+        - Building and training the model
+        - Saving the model as an H5 file
+        - Converting the model to TensorFlow.js format
+
+4. **Save and Convert the Model**:
+    ```python
+    model_path = '/content/drive/My Drive/classification_of_fish_species.h5'
+    model.save(model_path)
+    output_dir = '/content/drive/MyDrive/tfjs_model'
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    !tensorflowjs_converter --input_format keras '/content/drive/MyDrive/classification_of_fish_species.h5' '/content/drive/MyDrive/tfjs_model'
+    ```
 
