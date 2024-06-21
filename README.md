@@ -58,3 +58,17 @@ The model shows strong generalization capabilities and accurately classifies mos
 - Seaborn
 - OpenCV
 - TensorFlow.js
+
+### Environment Setup
+To set up the environment and run the project in Google Colab, follow these steps:
+
+1. **Mount Google Drive**:
+    ```python
+    from google.colab import drive
+    drive.mount('/content/drive')
+    ```
+
+2. **Install Dependencies**:
+    ```python
+    !pip install tensorflowjs
+
