@@ -25,3 +25,17 @@ The CNN model is built using the following layers:
 
 ### Training and Evaluation
 The model is trained using the Adam optimizer and categorical cross-entropy loss. Early stopping is used to prevent overfitting. The training process is visualized using learning and loss curves.
+
+### Results and Graph Visualization
+#### Plot Learning Curve
+The learning curve plot shows our CNN model's performance in fish species classification. Training accuracy (blue) reaches nearly 100%, and validation accuracy (orange) stabilizes around 95%, indicating strong generalization and high accuracy.
+![image](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/c643ce10-0bb6-4911-af28-81831e559ac8)
+
+#### Plot Loss Curve 
+The loss curve graph illustrates our CNN model's performance. Training loss (blue) consistently decreases, while validation loss (orange) also decreases and stabilizes, showing effective learning and good generalization.
+![image](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/ddcb1b8d-cd7c-4aa1-9df0-7ac713bd6bf5)
+
+
+
+- **Test Accuracy**: 90.57%
+- **Test Loss**: 0.522
