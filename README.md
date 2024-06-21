@@ -43,3 +43,8 @@ On new test data, the model achieved a test loss of 0.5224 and a test accuracy o
 The confusion matrix shows that the CNN model accurately categorizes most fish species, though some misclassifications highlight areas for improvement.
 ![image](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/7a0701dc-b24e-4aab-96c1-fbd78025a0d9)
 
+#### Machine Learning Model Simulation for Fish Type Classification
+The simulation demonstrates the model correctly identifying a submitted fish image as "Bangus" (milkfish), showcasing its ability to accurately identify fish species from photographs.
+![Screenshot 2024-06-21 012953](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/a85ae81d-39d3-4c6b-b9da-93c8f4382469)
+
+
