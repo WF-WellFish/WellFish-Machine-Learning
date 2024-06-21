@@ -1,4 +1,6 @@
 # Well Fish Machine Learning 
+![Uploading WhatsApp Image 2024-06-17 at 23.44.55_78286244.jpg…]()
+
 
 ## Classification of Fish Species using CNN Model
 This project focuses on classifying different species of fish using a Convolutional Neural Network (CNN) model. The model is trained and evaluated on a dataset of fish images and demonstrates high accuracy and generalization capabilities.
