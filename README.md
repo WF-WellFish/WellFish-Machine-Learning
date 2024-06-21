@@ -116,14 +116,14 @@ This project involves several key steps, namely data collection, dataset labelin
 
 ### Dataset
 The dataset used in this project includes images of fish infected with various types of diseases. This data is divided into training, testing, and validation datasets. Each image in the dataset has labeled to determine the type of disease present in the fish.
-Link Dataset: [https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing]
+Link Dataset: [Dataset](https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing)
 
 ### Model Architecture
 The model used in this project is SSD MobileNet V2. SSD (Single Shot Multibox Detector) is an object detection algorithm that allows detection in a single stage, making it faster compared to other object detection models that require two stages. MobileNet V2 is a convolutional neural network architecture optimized for devices with low computational power such as smartphones and IoT devices.
 
 ### Model Training
 The model was trained through a series of steps totaling 36.2k steps. Below are the results of the training process:
-Link: [https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing]
+Link: [Training](https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing]](https://drive.google.com/drive/folders/1A_wM1iKmDidlq_lmaRVnLf5kiiHDs5VU?usp=sharing)
 
 ### Results and Graph Visualization
 #### Loss/Classification Loss
