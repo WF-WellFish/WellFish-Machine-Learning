@@ -35,7 +35,6 @@ The learning curve plot shows our CNN model's performance in fish species classi
 The loss curve graph illustrates our CNN model's performance. Training loss (blue) consistently decreases, while validation loss (orange) also decreases and stabilizes, showing effective learning and good generalization.
 ![image](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/ddcb1b8d-cd7c-4aa1-9df0-7ac713bd6bf5)
 
-
-
-- **Test Accuracy**: 90.57%
-- **Test Loss**: 0.522
+#### Evaluate the Model on New Testing Data
+On new test data, the model achieved a test loss of 0.5224 and a test accuracy of 90.57%, indicating good performance and successful generalization to unseen data.
+![Screenshot 2024-06-20 135241](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/b5fc5922-c9d1-46d1-88a8-b52f0ae59af0)
