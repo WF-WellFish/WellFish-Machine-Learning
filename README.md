@@ -100,6 +100,67 @@ To set up the environment and run the project in Google Colab, follow these step
     !tensorflowjs_converter --input_format keras '/content/drive/MyDrive/classification_of_fish_species.h5' '/content/drive/MyDrive/tfjs_model'
     ```
 
+
+## Detection of Fish Diseases
+This project aims to develop a fish disease detection system using the SSD MobileNet V2 model. Six types of diseases will be detected, namely:
+1. **EUS (Epizootic Ulcerative Syndrome)**: A disease in fish caused by the parasitic fungus Aphanomyces invadans.
+2. **Eye Disease**: Diseases or disorders affecting fish eyes such as cataracts, bacterial or parasitic infections, and others.
+3. **Fin Lesions**: Lesions or damage to fish fins that can be caused by bacterial, fungal, parasitic infections, or poor environmental conditions.
+4. **Rotten Gills**: Poor or damaged fish gills.
+5. **Head Worms**: Parasitic worm infestations attacking the fish's head area.
+6. **Body Worms**: Parasitic worm infestations attacking parts of the fish's body other than the head.
+
+
+### Project Overview
+This project involves several key steps, namely data collection, dataset labeling, model training, and model performance evaluation. The resulting system is expected to detect various types of fish diseases with high accuracy. 
+
+### Dataset
+The dataset used in this project includes images of fish infected with various types of diseases. This data is divided into training, testing, and validation datasets. Each image in the dataset has labeled to determine the type of disease present in the fish.
+Link Dataset: [https://drive.google.com/drive/folders/1w5R5eo_bn3_fdId_UJ0LGVIK3PRM2MP6?usp=sharing](https://drive.google.com/drive/folders/1_PHweflueiCAbL1Ycikoa8gRPsKowa7z?usp=sharing)
+
+### Model Architecture
+The model used in this project is SSD MobileNet V2. SSD (Single Shot Multibox Detector) is an object detection algorithm that allows detection in a single stage, making it faster compared to other object detection models that require two stages. MobileNet V2 is a convolutional neural network architecture optimized for devices with low computational power such as smartphones and IoT devices.
+
+### Results and Graph Visualization
+#### Loss/Classification Loss
+The graph shows a significant decrease from the beginning to the end of training. After training for 36.2k steps, the classification loss is around 0.066. This result indicates that the model is improving in classification accuracy.
+![Screenshot 2024-06-20 210424](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/408a3d77-65da-4263-a555-21e8e5ef7d59)
+
+#### Loss/Localization Loss
+The graph shows a decrease from around 0.20 to approximately 0.026 at 36.2k steps. This result indicates that the model is becoming more accurate in determining object locations within the data.
+![Screenshot 2024-06-20 210509](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/bb3ea8cc-35dc-4db3-bf18-957176516093)
+
+#### Loss/Regularization Loss
+The graph shows a stable decrease from around 0.34 to 0.146 at 36.2k steps. Regularization helps prevent overfitting.
+![Screenshot 2024-06-20 210532](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/92885b91-f247-49e6-a395-ca54c74bc44b)
+
+#### Loss/Total Loss
+The graph shows a stable decrease from around 0.80 to 0.238 at 36.2k steps. The total loss is a combination of all the measured loss components, and the decrease in total loss indicates an improvement in the model's performance.
+![Screenshot 2024-06-20 210603](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/f5b064bc-22f8-4cc2-b245-32a18fdaaf48)
+
+#### Machine Learning Model Simulation for Fish Type Classification
+The simulation demonstrates the model correctly identifying a submitted fish disease as EUS, Fin_lesions, Eye_disease, Rotten_gills showcasing its ability to accurately identify fish disease from photographs.
+![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/5416fc72-eb7c-4dc9-83b8-46a80072f68d)
+![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/b6491afb-1c2b-460c-929a-cd555a8f7021)
+![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/7d952ca0-6ea5-47f0-8c9d-f80df7cf0b2b)
+
+The model shows strong generalization capabilities and accurately detect fish disease.
+
+#### mAP Results for Fish Disease Detection Using SSD MobileNet V2 Model
+The following are the results of calculating the mean Average Precision (mAP) at various Intersection over Union (IoU) thresholds for detecting different types of fish diseases using the SSD MobileNet V2 model:
+
+
+| Class        | Average mAP @ 0.5:0.95 |
+|--------------|-------------------------|
+| EUS          | 56.41%                 |
+| Eye_disease  | 64.13%                 |
+| Fin_lesions  | 54.63%                 |
+| Rotten_gills | 59.60%                 |
+| Head_Worms   | 29.45%                 |
+| Body_Worms   | 49.88%                 |
+| **Overall**  | **52.35%**             |
+
+
 ## Final Note
 Congratulations! The machine learning model for fish species classification is now ready for use.
 
