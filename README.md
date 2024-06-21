@@ -1,2 +1,4 @@
-WellFish Machine Learning Model - Classification of types of fish 
+WellFish Machine Learning Model 
+
+1. Classification of types of fish 
 
