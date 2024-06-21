@@ -138,7 +138,7 @@ The graph shows a stable decrease from around 0.34 to 0.146 at 36.2k steps. Regu
 The graph shows a stable decrease from around 0.80 to 0.238 at 36.2k steps. The total loss is a combination of all the measured loss components, and the decrease in total loss indicates an improvement in the model's performance.
 ![Screenshot 2024-06-20 210603](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/f5b064bc-22f8-4cc2-b245-32a18fdaaf48)
 
-#### Machine Learning Model Simulation for Fish Type Classification
+#### Machine Learning Model Simulation for Detection of Fish Diseases
 The simulation demonstrates the model correctly identifying a submitted fish disease as EUS, Fin_lesions, Eye_disease, Rotten_gills showcasing its ability to accurately identify fish disease from photographs.
 ![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/5416fc72-eb7c-4dc9-83b8-46a80072f68d)
 ![download](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/130066367/b6491afb-1c2b-460c-929a-cd555a8f7021)
@@ -162,7 +162,7 @@ The following are the results of calculating the mean Average Precision (mAP) at
 
 
 ## Final Note
-Congratulations! The machine learning model for fish species classification is now ready for use.
+Congratulations! The machine learning model for fish species classification & Detection of Fish Diseases is now ready for use.
 
 
 ---
