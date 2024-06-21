@@ -1,5 +1,5 @@
 # Well Fish Machine Learning 
-![Uploading WhatsApp Image 2024-06-17 at 23.44.55_78286244.jpg…]()
+![WhatsApp Image 2024-06-17 at 23 44 55_78286244](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/68eeefbd-c4e1-48ba-9e2e-401c729e4cb4)
 
 
 ## Classification of Fish Species using CNN Model
