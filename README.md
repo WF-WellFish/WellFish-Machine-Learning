@@ -47,4 +47,4 @@ The confusion matrix shows that the CNN model accurately categorizes most fish s
 The simulation demonstrates the model correctly identifying a submitted fish image as "Bangus" (milkfish), showcasing its ability to accurately identify fish species from photographs.
 ![Screenshot 2024-06-21 012953](https://github.com/WF-WellFish/WellFish-Machine-Learning/assets/72650963/a85ae81d-39d3-4c6b-b9da-93c8f4382469)
 
-
+The model shows strong generalization capabilities and accurately classifies most fish species.
